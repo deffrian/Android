@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|bottom"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/numberTop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|right"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/numberBottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom|right"
+        android:text="0"
+        android:textSize="50sp" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/buttonC"
+                style="@style/DefaultButton"
+                android:text="C" />
+
+            <Button
+                android:id="@+id/buttonSign"
+                style="@style/DefaultButton"
+                android:text="+/-" />
+
+            <Button
+                android:id="@+id/buttonPersent"
+                style="@style/DefaultButton"
+                android:text="%" />
+
+            <Button
+                android:id="@+id/buttonDivide"
+                style="@style/DefaultButton"
+                android:text="/" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button1"
+                style="@style/DefaultButton"
+                android:text="1" />
+
+            <Button
+                android:id="@+id/button2"
+                style="@style/DefaultButton"
+                android:text="2" />
+
+            <Button
+                android:id="@+id/button3"
+                style="@style/DefaultButton"
+                android:text="3" />
+
+            <Button
+                android:id="@+id/buttonMult"
+                style="@style/DefaultButton"
+                android:text="*" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button4"
+                style="@style/DefaultButton"
+                android:text="4" />
+
+            <Button
+                android:id="@+id/button5"
+                style="@style/DefaultButton"
+                android:text="5" />
+
+            <Button
+                android:id="@+id/button6"
+                style="@style/DefaultButton"
+                android:text="6" />
+
+            <Button
+                android:id="@+id/buttonMinus"
+                style="@style/DefaultButton"
+                android:text="-" />
+
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+
+            <Button
+                android:id="@+id/button7"
+                style="@style/DefaultButton"
+                android:text="7" />
+
+            <Button
+                android:id="@+id/button8"
+                style="@style/DefaultButton"
+                android:text="8" />
+
+            <Button
+                android:id="@+id/button9"
+                style="@style/DefaultButton"
+                android:text="9" />
+
+            <Button
+                android:id="@+id/buttonPlus"
+                style="@style/DefaultButton"
+                android:text="+" />
+        </TableRow>
+
+        <TableRow android:layout_weight="1">
+            <Button
+                android:id="@+id/button0"
+                style="@style/DefaultButton"
+                android:layout_weight="2"
+                android:text="0" />
+
+
+            <Button
+                android:id="@+id/buttonPoint"
+                style="@style/DefaultButton"
+                android:text="." />
+
+            <Button
+                android:id="@+id/buttonCalculate"
+                style="@style/DefaultButton"
+                android:text="=" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
